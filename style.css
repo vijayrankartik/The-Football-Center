@@ -1,0 +1,32 @@
+img{
+    margin: 0 auto;
+    height: 120px;
+    width: 60%;
+    padding-left: 20px;
+    opacity: 70%;
+}
+.container1{
+    /* margin-top: 0px; */
+    margin-top: 0px;
+    padding: 0px;
+}
+.containerall{
+    background: url("resources/background.jpg") center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.containerall2{
+    background: url("resources/bayern.jpg") center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.containerall3{
+    background: url("resources/ron.jpg") center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.containerall4{
+    background: url("resources/messi.jpg") center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
