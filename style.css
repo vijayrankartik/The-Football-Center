@@ -16,7 +16,7 @@ img{
     height: 100vh;
 }
 .containerall2{
-    background: url("resources/bayern.jpg") center/cover;
+    background: url("resources/messi.jpg") center/cover;
     background-attachment: fixed;
     height: 100vh;
 }
@@ -26,7 +26,7 @@ img{
     height: 100vh;
 }
 .containerall4{
-    background: url("resources/messi.jpg") center/cover;
+    background: url("resources/bayern.jpg") center/cover;
     background-attachment: fixed;
     height: 100vh;
 }
