@@ -30,3 +30,19 @@ img{
     background-attachment: fixed;
     height: 100vh;
 }
+
+
+/* FOR HIGHLIGHT PAGE */
+.select{
+    margin-left: 33%;
+    margin-top: 25px;
+}
+h5{
+    margin: 10px;
+}
+.lg{
+    margin-left: 10%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
