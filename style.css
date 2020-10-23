@@ -30,6 +30,11 @@ img{
     background-attachment: fixed;
     height: 100vh;
 }
+.containerall5{
+    background: url("resources/forvideo.jpg") center/cover;
+    background-attachment: fixed;
+    height: 1000vh;
+}
 
 
 /* FOR HIGHLIGHT PAGE */
@@ -45,4 +50,11 @@ h5{
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+}
+
+/* FOR VIDEO PAGE */
+#root{
+    margin: 10px auto;
+    height: 600px;
+    width: 60%;
 }
