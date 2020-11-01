@@ -35,6 +35,11 @@ img{
     background-attachment: fixed;
     height: 1000vh;
 }
+.containerall6{
+    background: url("resources/forplinfo.jpg") center/cover;
+    background-attachment: fixed;
+    height: 800vh;
+}
 
 
 /* FOR HIGHLIGHT PAGE */
@@ -57,4 +62,16 @@ h5{
     margin: 10px auto;
     height: 600px;
     width: 60%;
+}
+
+/* FOR PLAYER PAGE */
+.pname{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#pnsrch{
+    margin-left: 140px;
+}
+#rootpl{
+       
 }
