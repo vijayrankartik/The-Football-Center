@@ -40,7 +40,11 @@ img{
     background-attachment: fixed;
     height: 800vh;
 }
-
+.containerall7{
+    background: url("resources/fortminfo.jpg") center/cover;
+    background-attachment: fixed;
+    height: 500vh;
+}
 
 /* FOR HIGHLIGHT PAGE */
 .select{
@@ -71,7 +75,4 @@ h5{
 }
 #pnsrch{
     margin-left: 140px;
-}
-#rootpl{
-       
 }
