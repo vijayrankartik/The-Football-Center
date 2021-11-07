@@ -1,0 +1,30 @@
+/* FOR FUTDRAFT */
+.futcont{
+    background: url("./resources/fut.jpg") center/cover;
+    background-attachment: fixed;    
+    height: 200vh;
+}
+.title{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.atk{
+    padding-left: 13%;
+    padding-top: 1.5%;
+}
+.mid{
+    padding-left: 13%;
+}
+.def{
+    padding-left: 4%;
+}
+.gk{
+    padding-left: 35%;
+    position: relative;
+    display: block;
+}
+.gkclass{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -300px;
+}
