@@ -2,7 +2,7 @@
 .futcont{
     background: url("./resources/fut.jpg") center/cover;
     background-attachment: fixed;    
-    height: 200vh;
+    height: 220vh;
 }
 .title{
     padding-top: 2%;
@@ -28,6 +28,6 @@
     margin-top: 45px;
     margin-left: -300px;
 }
-.b1{
+#b1{
     margin-left: 630px;
 }
