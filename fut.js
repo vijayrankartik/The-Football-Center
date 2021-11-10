@@ -252,3 +252,35 @@ function stfin(c)
         document.getElementById("st").src = "./renders/st5.png"
     },200*c)
 }
+
+
+document.getElementById("all").addEventListener("click", function(){
+    for(let c = 0;c<20;c++)
+    {
+        stfin(c);
+        cbfin(c);
+        cblfin(c);
+        rbfin(c);
+        lbfin(c);
+        camfin(c);
+        cmfin(c);
+        cdmfin(c);
+        rwfin(c);
+        lwfin(c);
+        gkfin(c);
+    }
+});
+
+document.getElementById("reset").addEventListener("click", function(){
+    document.getElementById("st").src = ""
+    document.getElementById("lw").src = ""
+    document.getElementById("rw").src = ""
+    document.getElementById("cam").src = ""
+    document.getElementById("cm").src = ""
+    document.getElementById("cdm").src = ""
+    document.getElementById("lbc").src = ""
+    document.getElementById("cbrc").src = ""
+    document.getElementById("cblc").src = ""
+    document.getElementById("rbc").src = ""
+    document.getElementById("gkc").src = ""
+});
