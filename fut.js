@@ -255,6 +255,7 @@ function stfin(c)
 
 
 document.getElementById("all").addEventListener("click", function(){
+    console.log("all clicked")
     for(let c = 0;c<20;c++)
     {
         stfin(c);
@@ -272,6 +273,7 @@ document.getElementById("all").addEventListener("click", function(){
 });
 
 document.getElementById("reset").addEventListener("click", function(){
+    console.log("reset clicked")
     document.getElementById("st").src = ""
     document.getElementById("lw").src = ""
     document.getElementById("rw").src = ""
