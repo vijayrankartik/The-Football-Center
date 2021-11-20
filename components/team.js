@@ -7,7 +7,7 @@ new URLSearchParams(window.location.search).forEach((value,name)=>{
 
 var pn2 = pn.value
 
-var link = "https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t="+pn2
+var link = "https://www.thesportsdb.com/api/v1/json/2/searchteams.php?t="+pn2
 console.log(link)
 
 var request = new XMLHttpRequest()
