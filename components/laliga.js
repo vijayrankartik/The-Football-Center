@@ -4,7 +4,7 @@ var request = new XMLHttpRequest()
 request.open('GET','https://www.scorebat.com/video-api/v1/')
 
 if(this.response == undefined){
-    alert("Service currently unavailable, we understans the frustration, please visit later")
+    alert("Service currently unavailable, we realize this is dissapointing, please visit later")
     location.replace("highlights.html")
 }
 
