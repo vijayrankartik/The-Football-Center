@@ -3,6 +3,11 @@ const app = document.getElementById("root")
 var request = new XMLHttpRequest()
 request.open('GET','https://www.scorebat.com/video-api/v1/')
 
+if(this.response == undefined){
+    alert("Service currently unavailable, we understans the frustration, please visit later")
+    location.replace("highlights.html")
+}
+
 request.onload = function(){
 
     var data = JSON.parse(this.response)
