@@ -24,6 +24,9 @@ request.onload = function(){
             }        
         });
     }
+    else{
+        alert("Service currenlty unavailable. Please visit later, we realize this is dissapointing")
+    }    
 }
 
 request.send()
